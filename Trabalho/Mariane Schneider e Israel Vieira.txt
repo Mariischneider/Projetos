@@ -1,0 +1,10 @@
+       O sistema de gestão de polícia é um software que gerencia informações sobre policiais, ocorrências, viaturas e prisões. O objetivo é fornecer uma ferramenta eficiente para a gestão de dados e operações da polícia.
+
+      *Métodos com Regras de Negócio:*
+
+Policial.trabalha_em(Viatura): define a viatura que o policial trabalha
+Ocorrencia.envolve(Policial): adiciona um policial à lista de policiais envolvidos na ocorrência
+Herança e Relacionamento:
+
+Herança: não há herança entre as classes
+Associação: Policial trabalha em Viatura, Ocorrencia envolve `
